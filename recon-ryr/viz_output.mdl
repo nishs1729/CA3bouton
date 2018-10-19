@@ -1,0 +1,10 @@
+VIZ_OUTPUT {
+        MODE = CELLBLENDER
+        FILENAME = output_folder & "/viz/tripartite.mols"
+
+        MOLECULES
+        {
+               NAME_LIST { Ca Cae X0Y0 Glu "IP3*" "SERCA*" "calb*" "PMCA*" "RyR*" "GluT*" "VDCC_PQ*" "RyR*" }
+                ITERATION_NUMBERS { ALL_DATA @ [[0 TO 300000 STEP 50]] }
+        }
+}

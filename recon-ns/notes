@@ -1,0 +1,12 @@
+# custom time step of Ca, Cae and IP3 changed
+# Add RyR release site
+
+# ER volvume 0.0147 um^3
+# ER Ca conc = n/(6.023*1.47) uM = n/8.85 uM
+
+# Axon total volume = 0.391 um^3
+# Axon volume (removing ER and mitochondria) = 0.3446 um^3
+# Axon Ca conc = n/(6.023*34.46) uM = n/207.5 uM
+
+# set IP3R and ip3 concentration to 0 in parameters.mdl
+# set isi and vdcc number in RSI20V50.mdl to what it should be
